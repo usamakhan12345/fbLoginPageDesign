@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(232, 240, 249);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin-top: 140px;
+    border-radius: 15px;
+    margin-left: 0px;
+}
+.email::placeholder{
+    font-size: 18px;
+
+}
+.text{
+    justify-items: center;
+    margin-top: 220px;
+    margin-left: 28px;
+    margin-right: 0px;
+}
+h1{
+    font-size: 50px;
+    color: blue;
+    font-weight: bolder;
+    line-height: 20px;
+    margin-bottom: 0px;
+    font-family:inherit;
+}
+h6{
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: normal;
+    font-family:inherit;
+}
+.email{
+    margin-top: 25px;
+    width: 350px;
+    margin-left: 20px;
+    height: 45px;
+    border-radius: 7px;
+    align-items: center;
+    border-color: grey;
+    
+}
+.login{
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+.forget{
+    color: royalblue ;
+    text-align: center;
+}
+.row{
+    color: darkgray;
+}
+.email  value{
+    color: white;
+}
+.newacc{
+    background-color: rgb(8, 211, 8);
+    color: white;
+    font-weight: bold;
+    height: 45px;
+    border-color:rgb(8, 211, 8);
+    border-radius: 7px;
+    margin-top: 49px;
+    margin-left: 125px;
+    width: 175px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.email:hover{
+    border-color: royalblue;
+    
+}
